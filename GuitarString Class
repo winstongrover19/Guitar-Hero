@@ -1,0 +1,9 @@
+public class GuitarString{
+private Queue<Integer> ringBuffer = new LinkedList();
+private static final double SAMPLE_RATE = StdAudio.SAMPLE_RATE;
+
+public GuitarString(double frequency){
+int n = Math.round(SAMPLE_RATE / frequency); 
+}
+
+}
